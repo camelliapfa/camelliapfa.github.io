@@ -1,0 +1,731 @@
+@font-face {
+    font-family: "BT";
+    src: url(../font/BT.ttf) format("truetype");
+   
+}
+@font-face {
+    font-family: "QSR";
+    src: url(../font/QS/Quicksand-Regular.otf) format('opentype');
+ 
+}
+@font-face {
+    font-family: "QSI";
+    src: url(../font/QS/Quicksand-Italic.otf) format('opentype');
+ 
+}
+@font-face {
+    font-family: "QSM";
+    src: url(../font/QS/QM.ttf) format('truetype');
+ 
+}
+@font-face {
+    font-family: "QSB";
+    src: url(../font/QS/Quicksand-Bold.otf) format('opentype');
+ 
+}
+@font-face {
+    font-family: "QSL";
+    src: url(../font/QS/Quicksand-Light.otf) format('truetype');
+ 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.web a, .phone a, p{
+    font-family: "QSR";
+} 
+h5{
+    font-family: "QSB";
+}
+h1, h2 {
+    font-family: "BT";
+}*
+
+/*********************************************************************************************MAIN*/
+/*_______________________________________________________________nav_______________________________________________________*/
+/*logo*/
+.logo{
+    position: absolute;
+}
+.logo img{
+    max-width:100%;
+}
+.logo a {
+    width: 20%;
+    position: relative;
+    z-index: 1032;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/*nav phone*/
+.phone{
+ 
+    z-index: 1030;
+    background-color: white;
+    width: 100%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.phone a.burger{
+    position: relative;
+    z-index: 1040;
+}
+.phone .dropdown-menu{
+    width: 100%;
+    border:none;
+    transform: translate3d(0px, 37px, 0px) !important;
+    align-items: center;
+}
+.phone .dropdown-menu ul {
+  text-align: center;
+    margin-top: 5%;
+}
+.phone .dropdown-menu ul li {
+    list-style: none;
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+}
+.phone .dropdown-menu ul li a{
+    font-family: "QSM";
+    font-size: 100%;
+    color: #0d383e;
+}
+.phone .dropdown-menu ul li:hover {
+    
+      background-color:#0d383e;
+      text-decoration: none;
+
+}
+
+.phone .dropdown-menu ul li:hover a{
+  color:white;
+  text-decoration: none;
+
+}
+/*_________________________________________________________fin nav___________________________________________________*/
+
+/*________________________________________________________header_______________________________________________________*/
+/*carousel*/
+
+.carousel{
+    position:relative;  
+}
+.carousel p{
+    font-family: "QSL";
+}
+.carousel li {
+    border-radius: 50% !important;
+    height: 15px !important;
+    width: 15px !important;
+}
+/*_________________________________________________________fin header_________________________________________________*/
+
+/*___________________________________________________________section___________________________________________________*/
+.texte {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+  
+}
+.texte h1, .texte p{
+    color: #b3966c;
+}
+.texte p{
+    font-size: 120%;
+}
+
+.imageacc{
+    width: 100%;
+}
+.imageacc img{
+    width:100%;
+}
+
+/*lacarte*/
+.lacarte {
+    background-image: url("../images/gateau.png");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 10%;
+}
+.lacarte h2 {
+    color: #b3966c;
+    font-size: 50px;
+}
+.lacarte .boutonslacarte{
+    display: flex;
+    flex-direction: column;
+   
+}
+.lacarte .boutonslacarte a{
+    font-family: "BT";
+    color: #b3966c;
+    font-size: 40px; 
+    margin-top: 10%;
+    border: 1px solid #b3966c;
+}
+.lacarte .boutonslacarte a:hover{
+    background-color: #b3966c;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*carte*/
+.carte {
+    background-color: #0d383e;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.carte p{
+    font-family: "BT";
+    color:#b3966c;
+    font-size: 40px;
+}
+/*______________________________________________fin section__________________________________________________________*/
+/****************************************************************************************************************************MAIN-Fin*/
+
+
+
+.boutonhautdepage {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-bottom:15px ;
+  
+}
+.boutonhautdepage a{
+   position: relative;
+    z-index: 1019;
+}
+
+
+/*************************************************************************************************************************Footer*/
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #0d383e;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer p{
+    margin-top: 10px;
+}
+.footer h5, .footer h3, .footer p, .footer a{
+    color: #b3966c;
+}
+.footer .resp{
+    display: flex;
+    flex-direction: row;
+}
+.footer .resp  a {
+    align-self: center;
+}
+.footer .resp .partie2 .reseaux {
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+}
+.footer .resp .partie2 .reseaux img{
+    width: 80%;
+}
+/********************************************************************************************************FOOTER-Fin*/
+
+/*tablette*/
+@media screen and (max-width: 990px) and (min-width: 321px) {
+    .web{
+        display: none;
+    }
+    .logo img{
+        max-width:100%;
+    }
+    .logo a {
+        width: 30%;
+    }
+    .phone .dropdown-menu ul li a{
+        font-size: 20px;
+    }
+    .phone .dropdown-menu ul{
+        margin-top: 15%;
+    }
+    .carousel-caption p{
+        margin-bottom: 20%;
+        font-size: 30px;
+    }
+    .carousel-caption h5{
+        font-size: 35px;
+    }
+    .carousel li {
+        margin-bottom: 10% !important;
+    }
+    .texte p{
+        font-size: 150%;
+    }
+    .texte h1{
+        font-size: 70px;
+    }
+    .lacarte h2 {
+        font-size: 70px;
+    }
+    .lacarte .boutonslacarte{
+        justify-content: center;
+        flex-direction: row;
+    }
+    .lacarte .boutonslacarte a{
+        padding:30px ;
+        font-size: 60px; 
+        margin-top: 7%;
+        margin-right: 20px;
+        margin-left: 40px;
+        border: 2px solid #b3966c;
+    }
+    .carte {
+        padding-top: 10px;    
+        padding-bottom: 5px;
+    }
+    .carte p{
+       
+        font-size: 70px;
+    }
+    .footer{
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+   .resp{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 10%;
+    }
+   
+    .footer .resp .partie1{
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .footer .resp .partie1 .menu1{
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: flex-start;
+      
+    }
+    .footer .resp .partie1 .menu2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .footer .resp .partie1 h5 {
+        font-size: 25px;
+        border-bottom: 1px solid #b3966c;
+        padding-bottom: 1px;
+       
+        
+    }
+    .footer .resp .partie1 .menu1 .partiegauche1 a {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .footer .resp .partie1 .menu1 .partiegauche1 {
+         margin-bottom: 20px;    
+    }
+    .footer .resp .partie1 .menu1 .partiegauche2 a {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-top: 5px;        
+    }
+
+    .footer .resp .partie1 .menu2 .partiedroite1, .partiedroite2, .partiedroite3{
+        margin-bottom: 15px;
+    }
+    .footer .resp .partie1 .menu1 .partiegauche2 {
+         margin-bottom: 15px;
+        
+    }
+    .footer .resp a.mentions{
+        display: none;
+    }
+    .footer .resp .partie2{
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        border-left: 2px solid #b3966c;
+        padding-left: 7%;
+    }
+    .footer .resp .partie2 .reseaux a {
+        width: 80%;
+    }
+   
+    .footer .resp .partie2 h3 {
+        font-family: "QSR";
+        font-size: 36px;
+        margin-bottom: 10%;
+    }
+    .footer .resp .partie2 .reseaux{
+        margin-bottom: 20%;
+    }
+   .partie2 .texte2{
+        font-family: "BT";
+        font-size: 60px;
+    }
+   .partie2 .texte2 a{
+        padding:20px;
+        border: 1px solid #b3966c;
+    }
+   .partie2 .texte2 a:hover{
+        padding:20px;
+        color: white;
+        background-color: #b3966c;
+        text-decoration: none;
+    }
+}
+
+
+/*laptop*/
+@media screen and (max-width: 1600px) and (min-width: 991px) {
+    .phone{
+        display: none;
+    }  
+    .logo img{
+        max-width:100%;
+    }
+    .logo a {
+        width: 30%;
+        margin-top: 1%;
+    }
+    .navlangues{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+       padding-top: 1%;
+        padding-right: 5%;
+    }
+    .navlangues a {
+        width: 32px; 
+        justify-content: flex-end;
+        margin-left: 2%;
+    }
+    .web .nav {
+        position: absolute;
+        z-index: 1020;
+        font-family: "QSM";
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: white;
+        padding: 2% 5% 2% 5%;
+        margin-top: 5%;  
+    }
+    .web .nav .droite{
+      width: 50%;
+      display: flex;
+      align-self: center;
+    }
+    .web .nav .gauche{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-self: center;
+    }
+    .web .nav .droite ul{
+        display: flex;        
+        flex-direction: row;
+        width: 80%;
+    }
+    .web .nav .droite ul li {
+        width: 100%;       
+    }
+    .web .nav ul li{
+        list-style: none;
+    }
+    .web .nav ul li a{
+        font-family: "QSM";
+        font-size: 30px;
+        color: #b3966c; 
+         margin-right: 3%;
+    }
+    .web .nav ul li a:hover{
+        padding-bottom: 5%;
+        text-decoration: none;
+        border-bottom: 3px solid #b3966c;
+    }
+    .web .nav .gauche ul{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 36%;        
+    }
+    .web .nav .gauche ul li {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;   
+    }
+    .dropdown-menu1, .dropdown-menu2{
+        padding: 5%;
+        border:none !important;
+    }
+    #dropdown-menu1{
+        transform: translate3d(350px, 110px, 0px) !important;
+    }
+    #dropdown-menu2{
+        transform: translate3d(85px, 110px, 0px) !important;
+    }
+    .carousel-caption {
+        text-align: left !important;
+        left: 5% !important;
+        bottom: 25% !important;
+    }
+    .carousel-caption p {
+        margin-right: 65% !important;
+        margin-bottom: 0% !important;
+    }
+    .carousel-caption p{
+        margin-bottom: 20%;
+        font-size: 35px;
+    }
+    .carousel-caption h5{
+        font-size: 40px;
+    }
+    .carousel li {
+        margin-bottom: 10% !important;
+    }
+    .carousel li {
+        height: 25px !important;
+        width: 25px !important; 
+    }
+    .texte p{
+        font-size: 200%;
+        padding:2% 5% 0% 5%;
+    }
+    .texte h1{
+        font-size: 100px;
+    }
+    .lacarte h2 {
+        font-size: 100px;
+    }
+    .lacarte .boutonslacarte{
+        justify-content: center;
+        flex-direction: row;
+    }
+    .lacarte .boutonslacarte a{
+        padding:30px ;
+        font-size: 70px; 
+        margin-top: 7%;
+        margin-right: 25px;
+        margin-left: 50px;
+    }
+    .lacarte .boutonslacarte a:hover{
+        width:50%;
+        color: white;
+        background-color: #b3966c;
+    }
+    .carte {
+        padding-top: 10px;    
+        padding-bottom: 5px;
+    }
+    .carte p{
+       
+        font-size: 100px;
+    }
+    .footer{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+   .resp{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 5%;
+   }
+   
+    .footer .resp .partie1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 5%;
+        justify-content: space-between;
+    }
+   
+    .footer .resp .partie1 .menu1{
+        display: flex;
+        flex-direction: column;     
+        justify-content: flex-start;
+    }
+    .footer .resp .partie1 .menu2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;      
+        padding-right: 10%;
+    }
+    .footer .resp .partie1 .menu2 a:hover{
+       text-decoration: none;
+     }
+     .footer .resp .partie1 .menu2 h5:hover{  
+        font-family: "QSI" ;
+      }
+    .footer .resp .partie1 h5 {
+        font-size: 30px;
+        border-bottom: 1px solid #b3966c;
+        padding-bottom: 2%;   
+    }
+    .footer .resp .partie1 .menu1 .partiegauche1 a {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        font-size: 25px;
+    }
+    .footer .resp .partie1 .menu1 .partiegauche1 {
+         margin-bottom: 10%;   
+    }
+    .footer .resp .partie1 .menu1 .partiegauche2 a {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        margin-top: 5px;      
+    }
+    .partie1 .menu1 a:hover{
+        text-decoration: none;
+        font-family: "QSI";
+    }
+    .footer .resp .partie1 .menu2 .partiedroite1, .partiedroite2, .partiedroite3{
+        margin-bottom: 10%;
+    }
+    .footer .resp .partie1 .menu1 .partiegauche2 {
+        margin-bottom: 15px;   
+    }
+    .footer .resp a.mentions{
+        display: none;
+    }
+    .footer .resp .partie2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        border-left: 2px solid #b3966c;
+        padding-left: 7%;
+    }
+    .footer .resp .partie2 .reseaux a {
+        width: 80%;
+    }
+    .footer .resp .partie2 .reseaux a:hover {
+        width: 100%;
+    }
+    .footer .resp .partie2 h3 {
+        font-family: "QSR";
+        font-size: 36px;
+        margin-bottom: 10%;
+    }
+    .footer .resp .partie2 .reseaux{
+        margin-bottom: 20%;
+    }
+   .partie2 .texte2{
+        font-family: "BT";
+        font-size: 60px;
+    }
+   .partie2 .texte2 a{
+        padding:20px;
+        border: 1px solid #b3966c;
+    }
+   .partie2 .texte2 a:hover{
+        padding:20px;
+        color: white;
+        background-color: #b3966c;
+        text-decoration: none;
+    }
+}
+
+/*portable*/
+@media screen and (max-width: 320px) {
+    .web{
+        display: none;
+    }
+    .carousel h5{
+        font-size: 100%;
+    }
+   .carousel p{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .carousel .carousel-indicators{
+        display: none;
+    }
+    .carousel-caption{
+        padding-bottom: 2px;
+    }
+    .logo a {
+    width: 40%;
+    }
+    .phone  img{
+        width: 50%;
+    }
+    .phone{
+        padding-right: 5px;
+    }
+    .resp .partie1{
+        display: none;
+    }   
+    .resp .partie1{
+        display: none;
+    }   
+    .resp .partie2 h3, .partie2 .texte{
+        display: none;
+    }
+    .footer, .footer .resp{
+        flex-direction: column;
+    }
+    .footer .resp .reseaux{
+        margin-top: 5px;    
+    }
+    .footer p{
+        align-self: center;
+    }
+    .dropdown-menu{
+        padding-top: 35px;
+    }
+    .footer .resp .partie2 .texte2{
+        display: none;
+    }
+    .footer p{
+        font-size: 15%;
+    }
+    #mapid{
+        height: 200px !important;
+    }
+}
+
+
+
+
