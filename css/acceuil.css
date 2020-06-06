@@ -201,6 +201,9 @@ h1, h2 {
     padding-top: 5%;
     text-align: center;
     margin-bottom: 5px;
+   padding-left: 5%;
+   padding-right: 5%;
+   
 }
 .carte p{
     font-family: "BT";
@@ -261,7 +264,7 @@ h1, h2 {
 /********************************************************************************************************FOOTER-Fin*/
 
 /*tablette*/
-@media screen and (max-width: 990px) and (min-width: 321px) {
+@media screen and (max-width: 990px) and (min-width: 721px) {
     .web{
         display: none;
     }

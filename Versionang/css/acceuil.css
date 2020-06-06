@@ -201,6 +201,8 @@ h1, h2 {
     padding-top: 5%;
     text-align: center;
     margin-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .carte p{
     font-family: "BT";
