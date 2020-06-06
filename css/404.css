@@ -71,7 +71,7 @@ img{
 /********************************************************************************************************FOOTER-Fin*/
 
 /*tablette*/
-@media screen and (max-width: 990px) and (min-width: 321px) {
+@media screen and (max-width: 990px) and (min-width: 721px) {
    
     .footer{
         padding-left: 36px;
@@ -280,7 +280,7 @@ img{
 }
 
 /*portable*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
    
     .resp .partie1{
         display: none;
